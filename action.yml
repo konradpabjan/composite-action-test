@@ -8,8 +8,14 @@ runs:
     - name: Testing the Error Workflow Command
       run: echo "::error::Testing error"
       shell: bash
-    - run: echo Hello there again number 2!
+    - run: echo Hello there
       shell: bash
     - name: Testing the Error Workflow Command
       run: echo "::error::Testing error"
+      shell: bash
+    - name: Testing the Error Workflow Command
+      run: echo "::warning::Testing warning"
+      shell: bash
+    - name: Testing the Error Workflow Command
+      run: echo "::notice::Testing notice"
       shell: bash
