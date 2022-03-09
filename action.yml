@@ -7,7 +7,9 @@ runs:
       shell: bash
     - name: Testing the Error Workflow Command
       run: echo "::error::Testing error"
+      shell: bash
     - run: echo Hello there again number 2!
       shell: bash
     - name: Testing the Error Workflow Command
       run: echo "::error::Testing error"
+      shell: bash
