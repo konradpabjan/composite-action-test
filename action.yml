@@ -1,0 +1,11 @@
+name: 'Hello World'
+description: Greeting
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello there once!
+      shell: bash
+    - run: echo Hello there again!
+      shell: bash
+    - run: echo Hello there again number 2!
+      shell: bash
